@@ -1,0 +1,40 @@
+.candidates-section {
+    width: 100%;
+
+    .options-wrapper {
+        padding: 0 2rem;
+        display: flex;
+        gap: 1.5rem;
+
+        div {
+            line-height: 2;
+            cursor: pointer;
+
+            &.selected {
+                color: var(--main-color);
+                border-bottom: 1px solid var(--main-color);
+            }
+        }
+    }
+
+    .candidate-list-wrapper {
+        padding: 0 2rem;
+
+        h3 {
+            margin: 0;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .options-wrapper {
+        width: 100%;
+        overflow: scroll;
+        padding: 0 1rem !important;
+    }
+
+    .candidate-list-wrapper {
+        padding: 0 1rem !important;
+    }
+}

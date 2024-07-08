@@ -1,0 +1,63 @@
+.filters-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    .fm-left {
+        display: flex;
+        align-items: center;
+
+        .fl-l-title {
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 15px;
+                margin-right: 5px;
+            }
+        }
+
+        .dropdown-button {
+            font-weight: 400 !important;
+            color: black;
+            padding-top: 9px;
+        }
+
+        .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+            text-transform: none;
+        }
+    }
+
+    .fm-right {
+        button {
+            background-color: white;
+            border: 1px solid var(--border-color);
+            padding: 5px 8px;
+
+            img {
+                height: 25px;
+                width: 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .filters-main {
+        padding: 1rem;
+
+        .fm-left {
+            width: 100%;
+            overflow: scroll;
+
+            .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+                white-space: nowrap;
+            }
+        }
+
+        .fm-right {
+            display: none;
+        }
+    }
+}

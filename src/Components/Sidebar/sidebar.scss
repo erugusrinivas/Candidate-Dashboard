@@ -1,0 +1,57 @@
+.MuiDrawer-paper {
+    background-color: #fff;
+    color: #1a2a46;
+}
+
+.MuiListItem-root {
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.08);
+    }
+}
+
+.MuiListItemIcon-root {
+    color: inherit;
+}
+
+.css-qiam2h {
+    border: 0 !important;
+}
+
+.css-16lgfmr-MuiDrawer-docked {
+    .css-h4y409-MuiList-root {
+        padding: 0 1rem !important;
+
+        .css-bshv44-MuiButtonBase-root-MuiListItem-root {
+            margin: 1rem 0;
+
+            &.Mui-selected {
+                background-color: #201ff033;
+                color: #201ff0;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.css-1c5o8mi-MuiDrawer-docked {
+    .css-bshv44-MuiButtonBase-root-MuiListItem-root {
+        justify-content: center !important;
+        margin: 1rem 0;
+
+        img {
+            margin-right: 0 !important;
+        }
+    }
+}
+
+.css-9mgopn-MuiDivider-root {
+    border-bottom-width: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .css-1vh6nji {
+        button {
+            pointer-events: none;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.homepage {
+    display: flex;
+    width: 100%;
+
+    .sidebar-wrapper {
+        height: 100%;
+        flex: none;
+
+        .css-16lgfmr-MuiDrawer-docked {
+            height: 100%;
+
+            .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+                position: static !important;
+                height: 100%;
+            }
+        }
+    }
+
+    .content-wrapper {
+        width: 100%;
+        height: 100vh;
+        background-color: #f6f7f9;
+        overflow: scroll;
+    }
+}
