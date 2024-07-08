@@ -6,15 +6,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### Description
+# Project Description
 
-To develop this project, a new React project was initialized and the Material-UI library was installed to leverage its components and styling. 
-The main page component, Homepage, was created to serve as the application's entry point, utilizing Material-UI for layout and styling. 
-Within the Homepage, a Sidebar component was developed that includes various options for opening different tabs, using Material-UI components to ensure a consistent and appealing design.
-Next, a Candidate component was created to display a list of candidates. 
-This component also includes filter options to allow users to filter the candidates based on selected criteria. 
-Functionality was implemented within the Candidate component to dynamically filter the list of candidates as per the chosen filters, ensuring the displayed list updates accordingly. 
-Throughout the development process, consistent styling and layout were maintained across the Homepage, Sidebar, and Candidate components using Material-UI to provide a cohesive user experience.
+This project is a React application that leverages Material-UI for a consistent and appealing design. The application includes a homepage with a sidebar for navigation and a candidate list that can be filtered based on selected criteria.
+
+## Key Features
+
+- *Project Initialization*: 
+  - A new React project was initialized.
+  - Material-UI library was installed for component usage and styling.
+
+- *Homepage Component*:
+  - Serves as the entry point of the application.
+  - Utilizes Material-UI for layout and styling.
+
+- *Sidebar Component*:
+  - Includes various options for opening different tabs.
+  - Built using Material-UI components for a consistent design.
+
+- *Candidate Component*:
+  - Displays a list of candidates.
+  - Includes filter options to allow users to filter candidates based on selected criteria.
+  - Implements dynamic filtering to update the displayed list according to chosen filters.
+
+- *Consistent Styling and Layout*:
+  - Maintains cohesive user experience across the Homepage, Sidebar, and Candidate components.
+  - Uses Material-UI throughout the application for styling and layout.
 
 ### `npm start`
 
